@@ -1,5 +1,5 @@
 import "@testing-library/jest-dom/vitest";
-import TextInput from "@/components/TextInput";
+import TextInput from "@/components/TextInput/TextInput";
 import userEvent from "@testing-library/user-event";
 import { render, screen } from "@testing-library/react";
 
