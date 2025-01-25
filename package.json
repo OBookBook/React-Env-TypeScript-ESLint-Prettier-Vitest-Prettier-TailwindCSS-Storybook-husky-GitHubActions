@@ -10,7 +10,8 @@
     "test": "vitest watch",
     "coverage": "vitest run --coverage",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "react": "^18.3.1",
