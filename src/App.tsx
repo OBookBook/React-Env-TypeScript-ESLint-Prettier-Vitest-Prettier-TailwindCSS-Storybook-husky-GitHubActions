@@ -1,9 +1,14 @@
+import { env } from "./env";
 import { useState } from "react";
 import viteLogo from "/vite.svg";
 import reactLogo from "@/assets/react.svg";
 
 function App() {
   const [count, setCount] = useState(0);
+
+  // T3 ENV 環境変数を表示 デバックコードなので削除推奨
+  console.log(env.VITE_API_URL);
+  console.log(env.VITE_API_KEY);
 
   return (
     <div className="min-h-screen bg-gray-100">
